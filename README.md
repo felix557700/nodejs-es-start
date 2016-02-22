@@ -1,8 +1,7 @@
 # Playing with Node.js, Express.js and Babel 6
 
-## Badges
-
 [![Build Status](https://travis-ci.org/felix557700/nodejs-es-start.svg?branch=master)](https://travis-ci.org/felix557700/nodejs-es-start)
+[![Heroku](https://img.shields.io/badge/heroku-deployed-green.svg)](https://filip-node-es6.herokuapp.com/)
 
 ## For setting babel
 
