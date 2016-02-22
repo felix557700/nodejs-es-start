@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+app/
+bin/
+
+*.iml
+.idea/
+.idea/vcs.xml
+*.ipr
+*.iws
+
