@@ -8,5 +8,6 @@
 - use gulp and npm commands!
 
 For babel to watch files and transpile immediately run `npm run watch`
+
 For starting development with nodemon and babel run `npm run dev`
 
