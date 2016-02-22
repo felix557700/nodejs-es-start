@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "keywords": "nodejs expressjs babel gulp",
   "main": "./app/server.js",
+  "engines": {
+	"node": "5.6.0",
+	"npm": "3.6.0"
+  },
   "scripts": {
 	"start": "node ./app/server.js",
 	"dev": "./node_modules/.bin/gulp start",
