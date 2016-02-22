@@ -15,6 +15,11 @@ app.use(logger('dev'));
 
 app.use('/api', api);
 
+app.get('/', (req, res)=> {
+	res.send('hello world');
+});
+
+
 app.get('/echo/:thing', (req, res)=> {
 	let responseText = req.params.thing;
 
