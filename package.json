@@ -2,7 +2,7 @@
   "name": "nodejs-es-start",
   "version": "0.0.1",
   "keywords": "nodejs expressjs babel gulp",
-  "main": "server.js",
+  "main": "./app/server.js",
   "scripts": {
 	"start": "node ./app/server.js",
 	"dev": "./node_modules/.bin/gulp start",
