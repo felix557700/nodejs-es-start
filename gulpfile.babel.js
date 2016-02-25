@@ -6,7 +6,7 @@ import nodemon from 'gulp-nodemon';
 import relativeSource from 'gulp-relative-sourcemaps-source';
 
 // Set production flag
-var isProduction = false;
+var isProduction = process.env.IS_PRODUCTION || false;
 
 const paths = {
 	js: ['./src/**/*.js'],

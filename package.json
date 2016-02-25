@@ -12,9 +12,9 @@
 	"start": "node ./app/server.js",
 	"dev": "./node_modules/.bin/gulp start",
 	"build": "./node_modules/.bin/gulp babel",
-	"build-babel": "babel src -d app",
-	"watch": "babel src -d app --watch",
-	"test": "mocha -R spec ./test/**/*.js"
+	"babel": "babel src -d app",
+	"babel-watch": "babel src -d app --watch",
+	"test": "mocha --reporter spec --colors ./test/**/*.js"
   },
   "dependencies": {
 	"body-parser": "^1.5.2",
