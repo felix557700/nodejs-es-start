@@ -1,4 +1,6 @@
-var expect = require('chai').expect,
+var describe = require('mocha/lib/mocha.js').describe,
+	it = require('mocha/lib/mocha.js').it,
+	expect = require('chai').expect,
 	supertest = require('supertest'),
 	app = require('../app/server');
 
